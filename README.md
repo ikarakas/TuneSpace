@@ -23,7 +23,7 @@ A web-based platform for fine-tuning Large Language Models with an intuitive int
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/ikarakas/TuneSpace.git
 cd TuneSpace
 ```
 
@@ -49,7 +49,7 @@ cp .env.example .env
 python app.py
 ```
 
-The application will be available at `http://localhost:8000`.
+The application will be available at `http://localhost:9090`.
 
 ## Usage
 
