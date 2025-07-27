@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="hero-section text-center py-5 mb-5">
+    <h1 class="display-4 fw-bold text-primary">
+        <i class="fas fa-brain me-3"></i>TuneSpace
+    </h1>
+    <p class="lead">Fine-tune Large Language Models with ease</p>
+    <a href="/dashboard" class="btn btn-primary btn-lg mt-3">
+        <i class="fas fa-rocket me-2"></i>Get Started
+    </a>
+</div>
+
+<div class="row">
+    <div class="col-md-4 mb-4">
+        <div class="card h-100">
+            <div class="card-body text-center">
+                <i class="fas fa-upload fa-3x text-primary mb-3"></i>
+                <h5 class="card-title">Upload Data</h5>
+                <p class="card-text">Upload your training datasets in JSON, CSV, or JSONL format</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-4">
+        <div class="card h-100">
+            <div class="card-body text-center">
+                <i class="fas fa-cogs fa-3x text-primary mb-3"></i>
+                <h5 class="card-title">Configure Training</h5>
+                <p class="card-text">Set up training parameters, model selection, and fine-tuning options</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-4">
+        <div class="card h-100">
+            <div class="card-body text-center">
+                <i class="fas fa-chart-line fa-3x text-primary mb-3"></i>
+                <h5 class="card-title">Monitor Progress</h5>
+                <p class="card-text">Track training progress and view metrics in real-time</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-5">
+    <div class="col-12">
+        <h2 class="text-center mb-4">Features</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <ul class="list-unstyled">
+                    <li class="mb-2"><i class="fas fa-check text-success me-2"></i>LoRA fine-tuning support</li>
+                    <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Popular model support (GPT, LLaMA, etc.)</li>
+                    <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Real-time training monitoring</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <ul class="list-unstyled">
+                    <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Easy data upload and management</li>
+                    <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Configurable training parameters</li>
+                    <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Job management and history</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

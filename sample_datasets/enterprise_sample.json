@@ -1,0 +1,37 @@
+[
+  {
+    "instruction": "Help resolve this billing issue: Incorrect charge on account",
+    "input": "Customer was charged twice for the same service on their monthly bill. The duplicate charge is for $99.99 for our Premium Support package.",
+    "output": "I can help you resolve this billing issue. I see the duplicate charge for $99.99 on your account. I'll process a refund for the duplicate charge immediately. The refund will appear on your next billing statement within 3-5 business days. I've also added a note to your account to prevent similar issues in the future. Is there anything else I can help you with regarding your billing?",
+    "source": "support_tickets",
+    "category": "billing"
+  },
+  {
+    "instruction": "Explain: API Rate Limits",
+    "input": "",
+    "output": "Our API has rate limits to ensure fair usage and system stability. Free tier users get 1,000 requests per hour, while Premium users get 10,000 requests per hour. If you exceed your limit, you'll receive a 429 status code. Rate limits reset at the top of each hour. You can check your current usage in the dashboard under API Settings.",
+    "source": "documentation",
+    "category": "technical"
+  },
+  {
+    "instruction": "How do I integrate your service with my existing CRM?",
+    "input": "",
+    "output": "We offer several integration options for CRM systems: 1) REST API for custom integrations, 2) Pre-built connectors for Salesforce, HubSpot, and Pipedrive, 3) Zapier integration for 1000+ apps. For custom integrations, start with our API documentation at docs.example.com/api. For pre-built connectors, visit the Integrations page in your dashboard. Need help? Our integration team can provide setup assistance.",
+    "source": "faq",
+    "category": "integration"
+  },
+  {
+    "instruction": "What's the difference between our Standard and Premium plans?",
+    "input": "",
+    "output": "Here are the key differences: Standard Plan ($29/month): 5,000 API calls/month, email support, basic analytics, 30-day data retention. Premium Plan ($99/month): 50,000 API calls/month, priority phone support, advanced analytics, custom webhooks, 1-year data retention, dedicated account manager. Premium also includes access to beta features and priority feature requests.",
+    "source": "faq",
+    "category": "pricing"
+  },
+  {
+    "instruction": "My dashboard is showing incorrect data",
+    "input": "The analytics dashboard is displaying last month's data instead of this month's data. I've tried refreshing multiple times but the issue persists.",
+    "output": "This sounds like a caching issue with your dashboard. Please try these steps: 1) Log out and log back in, 2) Clear your browser cache and cookies for our site, 3) Try accessing the dashboard in an incognito/private window. If the issue persists, it might be a server-side caching problem. I'll escalate this to our technical team and we'll have it resolved within 24 hours. I'll send you an email update once it's fixed.",
+    "source": "support_tickets",
+    "category": "technical"
+  }
+]
